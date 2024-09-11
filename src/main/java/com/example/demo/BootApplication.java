@@ -15,9 +15,6 @@ public class BootApplication {
 		SpringApplication.run(BootApplication.class, args);
 	}
 	
-	@GetMapping("/")
-	public String getWelcomeMsg() {
-		return "Welcome to Ashok IT - Software Training";
 	}
 
 }
